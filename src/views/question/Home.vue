@@ -65,7 +65,7 @@
   .result-box {
     text-align: center;
     border: 2px solid #CCC;
-    border-radius: 3px;
+    border-radius: 8px;
     padding: 25px 15px 25px 15px;
     height: 270px;
     background-color: #8aa5f7;

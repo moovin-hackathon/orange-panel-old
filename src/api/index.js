@@ -8,12 +8,7 @@ export default {
    * @returns {Promise<*>}
    */
   async getYears () {
-    return [
-      '1º Ano',
-      '2º Ano',
-      '3º Ano'
-    ]
-    // return (await request.get(`platform/api/answer/year`)).data
+    return (await request.get(`/years`)).data
   },
   /**
    * Retorna as disciplinas das perguntas.

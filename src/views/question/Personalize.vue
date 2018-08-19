@@ -50,11 +50,11 @@ export default {
     questionsQuantity: null,
     duration: null
   }),
-  async created () {
+  async mounted () {
     try {
       this.years = await api.getYears()
     } catch (e) {
-
+      alert(e)
     }
   },
   methods: {

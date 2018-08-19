@@ -23,9 +23,6 @@ import MenuTopBar from '@/components/template/MenuTopBar'
 import MenuSideBar from '@/components/template/MenuSideBar'
 
 export default {
-  mounted () {
-    console.log(this.$router.currentRoute.name)
-  },
   computed: {
     isHome() {
       return this.$router.currentRoute.name !== 'register'
